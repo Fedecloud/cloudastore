@@ -1,4 +1,4 @@
-export default const Catalog = [
+export const Catalog = [
 	{
 	  "id": "BD7651",
 	  "name": "Continental 80 Shoes",
