@@ -8,7 +8,7 @@ class Grid extends Component {
 		console.log(Catalog)
 		return Catalog.map((product, i) => {
 			return (
-				<div key={product.id + i}>
+				<div key={product.id + i} className="grid-tile">
 					<ProductTile product={product} />
 				</div>
 			)
@@ -17,7 +17,7 @@ class Grid extends Component {
 
   render() {
     return (
-      <div className="grid-container">
+      <div className="grid-wrapper">
 
       	{this.renderProducts()}
       </div>

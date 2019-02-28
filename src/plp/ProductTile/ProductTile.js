@@ -7,20 +7,21 @@ class ProductTile extends Component {
   render() {
   	const {
   		name,
-  		price
+  		price,
+  		images,
+  		id
   	} = this.props.product
 
     return (
-      <div className="tile-wrapper">
+      <a className="tile-wrapper" href={`/pdp/${id}`}>
       	<div>
-      		{// <img src={} /> 
-      		}
+					<img className="tile-image" src={images[0]} /> 
       	</div>
       	<div className="tile-description">
       		<span>{name}</span>
       		<ProductPrice price={price} />
       	</div>
-      </div>
+      </a>
     );
   }
 }

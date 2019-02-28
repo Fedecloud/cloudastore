@@ -1,0 +1,10 @@
+.grid-tile {
+	width: 33.33%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.grid-wrapper {
+	justify-content: space-between;
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+.filters-container {
+	width: 20%;
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.grid-container {
+	width: 80%;
+	margin: 30px 0;
+	display: inline-block;
+}

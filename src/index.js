@@ -15,6 +15,7 @@ const Navigation = () => (
 			<Route path="/search" component={SearchPage} />
 			<Route path="/pdp" component={App} />
 			<Route path="/cart" component={App} />
+			<Route path="*" component={SearchPage} />
 		</Fragment>
 	</Router>
 )

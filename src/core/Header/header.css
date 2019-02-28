@@ -1,0 +1,26 @@
+.header-container {
+	height: 120px;
+	background: black;
+	justify-content: flex-end;
+}
+
+.header-logo {
+	width: 80px;
+}
+
+.logo-wrapper {
+	padding: 20px;
+	display: inline-block;
+}
+
+.link-wrapper {
+	display: inline-block;
+}
+
+.header-link {
+	text-decoration: none;
+	margin: 10px 10px;
+	padding: 0 15px;
+	display: inline-block;
+	color: white;
+}
