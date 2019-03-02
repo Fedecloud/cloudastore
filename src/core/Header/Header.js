@@ -14,9 +14,9 @@ class Header extends Component {
       	</div>
       	<div className="link-wrapper">
 		    	<Link className="header-link" to="/">Home</Link>
-		    	<Link className="header-link" to="/men">Men</Link>
-		    	<Link className="header-link" to="/women">Women</Link>
-		    	<Link className="header-link" to="/kids">Kids</Link>
+		    	<Link className="header-link" to="/category/men">Men</Link>
+		    	<Link className="header-link" to="/category/women">Women</Link>
+		    	<Link className="header-link" to="/category/kids">Kids</Link>
 		    </div>
 	    </div>
     );

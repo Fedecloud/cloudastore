@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ProductPrice from '../../core/ProductPrice/ProductPrice';
 import './product-tile.css';
 
@@ -13,7 +14,7 @@ class ProductTile extends Component {
   	} = this.props.product
 
     return (
-      <a className="tile-wrapper" href={`/pdp/${id}`}>
+      <Link className="tile-wrapper" to={`/pdp/${id}`}>
       	<div>
 					<img className="tile-image" src={images[0]} /> 
       	</div>
@@ -21,7 +22,7 @@ class ProductTile extends Component {
       		<span>{name}</span>
       		<ProductPrice price={price} />
       	</div>
-      </a>
+      </Link>
     );
   }
 }
