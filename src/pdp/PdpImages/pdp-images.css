@@ -1,0 +1,24 @@
+.secondary-images {
+	display: inline-block;
+	width: 20%;
+
+}
+
+.secondary-images img {
+	width: 110px;
+	height: 110px;
+}
+
+.secondary-image {
+	cursor: pointer;
+}
+
+.lead-image {
+	width: 80%;
+	display: inline-block;
+}
+
+.images-container {
+	width: 60%;
+	display: inline-block;
+}

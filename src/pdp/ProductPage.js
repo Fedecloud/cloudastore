@@ -1,18 +1,23 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Header from  '../core/Header/Header'
-import './product-page.css';
+import PdpImages from './PdpImages/PdpImages'
+import PdpMainDetails from './PdpMainDetails/PdpMainDetails'
+import { Product } from '../mock/mock-product'
+import './product-page.css'
 
-class SearchPage extends Component {
+class ProductPage extends Component {
+
   render() {
     return (
       <div className="pdp-page">
         <Header />
-        <div className="details-container">
-
-        </div>
+        <div className="info-container">
+          <PdpImages images={Product.images} />
+          <PdpMainDetails {...Product} />
+        </div> 
       </div>
     );
   }
 }
 
-export default SearchPage;
+export default ProductPage;
