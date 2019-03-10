@@ -1,7 +1,6 @@
 .secondary-images {
 	display: inline-block;
 	width: 20%;
-	text-align: center;
 	vertical-align: top;
 }
 
@@ -15,8 +14,13 @@
 }
 
 .lead-image {
-	width: 80%;
+	width: 78%;
+	padding-right: 2%;
 	display: inline-block;
+}
+
+.lead-image img {
+	width: 100%;
 }
 
 .images-container {

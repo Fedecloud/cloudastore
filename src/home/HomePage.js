@@ -23,16 +23,16 @@ class HomePage extends Component {
           <div className="home-box half left">
             <div className="image-container">
               <img className="space" src={Image2} />
-              <Link className="link" to="/men">Shop now</Link>
+              <Link className="link" to="/category/men">Shop now</Link>
             </div>
             <div className="image-container">
               <img src={Image1} />
-              <Link className="link" to="/women">Shop now</Link>
+              <Link className="link" to="/category/women">Shop now</Link>
             </div>
           </div>
           <div className="home-box half">
             <img src={Image4} />
-            <Link className="link" to="/kids">Shop now</Link>
+            <Link className="link" to="/category/kids">Shop now</Link>
           </div>
         </div>
       </div>

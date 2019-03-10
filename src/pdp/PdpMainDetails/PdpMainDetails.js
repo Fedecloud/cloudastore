@@ -9,7 +9,8 @@ class PdpMainDetails extends Component {
       name,
       badge_text,
       brand,
-      price
+      price,
+      product_description: { subtitle }
     } = this.props
 
     return (
@@ -18,6 +19,7 @@ class PdpMainDetails extends Component {
         <h1>{name}</h1>
         <p>{brand}</p>
         <p>Price: <ProductPrice price={price} /> </p>
+        <p>{subtitle}</p>
         <div>
           <button class="add-to-cart">Add to cart</button>
         </div>

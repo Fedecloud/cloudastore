@@ -14,7 +14,11 @@ class ProductPage extends Component {
         <div className="info-container">
           <PdpImages images={Product.images} />
           <PdpMainDetails {...Product} />
-        </div> 
+        </div>
+        <div className="description-container">
+          <h3>{Product.name}</h3>
+          <p>{Product.product_description.text}</p>
+        </div>
       </div>
     );
   }
