@@ -1,6 +1,7 @@
 .header-container {
 	height: 120px;
 	background: black;
+	padding: 0 40px;
 	justify-content: flex-end;
 }
 
@@ -10,6 +11,7 @@
 
 .logo-wrapper {
 	padding: 20px;
+	padding-left: 0;
 	display: inline-block;
 }
 

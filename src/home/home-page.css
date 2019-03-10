@@ -1,0 +1,59 @@
+.home-container {
+	padding: 0 40px;
+}
+
+.home-box.half {
+	vertical-align: top;
+	padding-left: 1%;
+	width: 49%;
+	display: inline-block;
+	position: relative;
+}
+
+.home-box.half.left {
+	padding-right: 1%;
+	padding-left: 0;
+}
+
+.home-box img {
+	width: 100%;
+	height: 100%;
+}
+
+.image-container {
+	position: relative;
+}
+
+.link {
+	position: absolute;
+	width: 120px;
+	height: 50px;
+	color: white;
+	background: black;
+	bottom: 40px;
+	right: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.link:hover {
+	color: black;
+	background: white;
+}
+
+img.space {
+	margin-bottom: 10px;
+}
+
+.welcome-wrapper {
+	text-align: center;
+	margin: 50px;
+}
+
+.welcome-wrapper p {
+	margin: 0;
+}
+
+.welcome-wrapper h1 {
+	margin-bottom: 0;
+}

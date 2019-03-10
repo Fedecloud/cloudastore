@@ -11,9 +11,9 @@ class ProductPrice extends Component {
 
     return (
       <div className="price-wrapper">
-        <span>{price}</span>
+        <span class={`regular ${salePrice ? 'has-sale' : ''}`}>{price}</span>
         { salePrice ?
-          <span>{salePrice}</span>
+          <span class="sale">{salePrice}</span>
           : null
         }
 

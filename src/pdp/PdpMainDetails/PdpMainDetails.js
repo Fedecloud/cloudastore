@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ProductPrice from '../../core/ProductPrice/ProductPrice';
 import './pdp-main-details.css'
 
 class PdpMainDetails extends Component {
@@ -13,10 +14,13 @@ class PdpMainDetails extends Component {
 
     return (
       <div className="details-container">
-        <h1>{name}</h1>
         <span>{badge_text}</span>
-        <span>{brand}</span>
-        <span>{price.standard_price}</span>
+        <h1>{name}</h1>
+        <p>{brand}</p>
+        <p>Price: <ProductPrice price={price} /> </p>
+        <div>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
       </div>
     );
   }

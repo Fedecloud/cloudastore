@@ -1,0 +1,9 @@
+.price-wrapper .regular.has-sale {
+	text-decoration: line-through;
+}
+
+.price-wrapper .sale {
+	color: red;
+	margin: 0 10px;
+}
+

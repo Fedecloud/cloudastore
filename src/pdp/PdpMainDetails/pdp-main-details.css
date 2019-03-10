@@ -1,4 +1,20 @@
 .details-container {
 	display: inline-block;
 	width: 40%;
+	vertical-align: top;
+}
+
+.add-to-cart {
+	width: 150px;
+	height: 60px;
+	background: black;
+	color: white;
+	cursor: pointer;
+	font-size: 21px;
+	outline: none;
+}
+
+.add-to-cart:hover {
+	color: black;
+	background: white;
 }
