@@ -26,3 +26,21 @@
 	display: inline-block;
 	color: white;
 }
+
+.cart-wrapper {
+	float: right;
+	margin-top: 55px;
+}
+
+.cart-link {
+	background: white;
+	display: block;
+	width: 50px;
+	text-align: center;
+	height: 50px;
+	line-height: 37px;
+}
+
+.cart-link img {
+	vertical-align: middle;
+}

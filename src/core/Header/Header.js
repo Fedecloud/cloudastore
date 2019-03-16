@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import cart from '../../assets/shopping-cart.png'
 import './header.css';
 
 class Header extends Component {
@@ -18,6 +19,11 @@ class Header extends Component {
 		    	<Link className="header-link" to="/category/women">Women</Link>
 		    	<Link className="header-link" to="/category/kids">Kids</Link>
 		    </div>
+				<div className="cart-wrapper">
+					<Link className="cart-link" to="/cart">
+						<img src={cart} />
+					</Link>
+				</div>
 	    </div>
     );
   }
