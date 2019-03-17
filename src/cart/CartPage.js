@@ -7,6 +7,7 @@ class CartPage extends Component {
     return (
       <div className="cart-page">
         <Header />
+        
       </div>
     );
   }

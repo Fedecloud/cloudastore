@@ -1,23 +1,14 @@
-.home-container {
-	padding: 0 40px;
-}
-
-.home-box.half {
-	vertical-align: top;
-	padding-left: 1%;
-	width: 49%;
-	display: inline-block;
-	position: relative;
-}
-
-.home-box.half.left {
-	padding-right: 1%;
-	padding-left: 0;
-}
-
 .home-box img {
 	width: 100%;
 	height: 100%;
+}
+
+.home-box {
+	position: relative;
+}
+
+.home-box.masthead {
+	padding-bottom: 15px;
 }
 
 .image-container {
@@ -47,7 +38,7 @@ img.space {
 
 .welcome-wrapper {
 	text-align: center;
-	margin: 50px;
+	margin: 50px 0;
 }
 
 .welcome-wrapper p {
@@ -55,5 +46,5 @@ img.space {
 }
 
 .welcome-wrapper h1 {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }

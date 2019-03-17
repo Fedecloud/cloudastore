@@ -18,10 +18,10 @@ class PdpMainDetails extends Component {
         <span>{badge_text}</span>
         <h1>{name}</h1>
         <p>{brand}</p>
-        <p>Price: <ProductPrice price={price} /> </p>
+        <div>Price: <ProductPrice price={price} /> </div>
         <p>{subtitle}</p>
         <div>
-          <button class="add-to-cart">Add to cart</button>
+          <button className="add-to-cart">Add to cart</button>
         </div>
       </div>
     );

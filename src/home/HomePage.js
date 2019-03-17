@@ -12,29 +12,32 @@ class HomePage extends Component {
     return (
       <div className="home-page">
         <Header />
-        <div className="home-container">
-          <div className="welcome-wrapper">
-            <h1>Welcome to Clouda Shop</h1>
-            <p>Powered by <a href="https://fedecloud.io">Fedecloud</a> team</p>
-          </div>
-          <div className="home-box">
-            <img className="space" src={Image3} />
-          </div>
-          <div className="home-box half left">
-            <div className="image-container">
-              <img className="space" src={Image2} />
-              <Link className="link" to="/category/men">Shop now</Link>
+        <div className="container-fluid">
+          <div className="row home-container">
+            <div className="col-xs-12 welcome-wrapper">
+              <h1>Welcome to Clouda Shop</h1>
+              <p>Powered by <a href="https://fedecloud.io">Fedecloud</a> team</p>
             </div>
-            <div className="image-container">
-              <img src={Image1} />
-              <Link className="link" to="/category/women">Shop now</Link>
+            <div className="col-xs-12 home-box masthead">
+              <img className="space" src={Image3} />
             </div>
-          </div>
-          <div className="home-box half">
-            <img src={Image4} />
-            <Link className="link" to="/category/kids">Shop now</Link>
+            <div className="col-xs-12 col-md-6 home-box half left">
+              <div className="image-container">
+                <img className="space" src={Image2} />
+                <Link className="link" to="/category/men">Shop now</Link>
+              </div>
+              <div className="image-container">
+                <img src={Image1} />
+                <Link className="link" to="/category/women">Shop now</Link>
+              </div>
+            </div>
+            <div className="col-xs-12 col-md-6 home-box half">
+              <img src={Image4} />
+              <Link className="link" to="/category/kids">Shop now</Link>
+            </div>
           </div>
         </div>
+        
       </div>
     );
   }

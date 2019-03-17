@@ -6,7 +6,7 @@ class Filters extends Component {
 	renderFilters() {
 		return MockFilters.map((filter, i) => {
 			return (
-				<div>
+				<div key={i}>
 					<a href={filter.link}>{filter.name}</a>
 				</div>
 			)

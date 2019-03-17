@@ -27,3 +27,20 @@
 	width: 60%;
 	display: inline-block;
 }
+/* 
+@media only screen and (max-width: 1048px) {
+	.secondary-images {
+		flex: 1;
+		order: 2;
+	}
+
+	.images-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lead-image {
+		flex: 1;
+		order: 1;
+	}
+} */

@@ -27,7 +27,7 @@ class PdpImages extends Component {
   renderSecondaryImages(images) {
     return images.map((image, i) => {
       return (
-        <div class="secondary-image" key={i} onClick={() => this.changeImage(i)}>
+        <div className="secondary-image" key={i} onClick={() => this.changeImage(i)}>
           <img src={image} />
         </div>
       )
@@ -42,10 +42,10 @@ class PdpImages extends Component {
 
     return (
       <div className="images-container">
-        <div class="secondary-images">
+        <div className="secondary-images">
           {this.renderSecondaryImages(images)}
         </div>
-        <div class="lead-image">
+        <div className="lead-image">
           <img src={leadImage} />
         </div>
       </div>
